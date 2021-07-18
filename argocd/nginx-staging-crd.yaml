@@ -13,6 +13,6 @@ spec:
       valueFiles:
         - values-staging.yaml
     path: deployment
-    repoURL: https://github.com/udacity/nd064_course_1 
+    repoURL: https://github.com/lenineo/argocd-nginx-alpine
     targetRevision: HEAD
   syncPolicy: {}
