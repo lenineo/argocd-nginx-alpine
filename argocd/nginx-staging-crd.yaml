@@ -12,7 +12,7 @@ spec:
     helm:
       valueFiles:
         - values-staging.yaml
-    path: deployment
+    path: ./
     repoURL: https://github.com/lenineo/argocd-nginx-alpine
     targetRevision: HEAD
   syncPolicy: {}
