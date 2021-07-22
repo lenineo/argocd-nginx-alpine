@@ -7,8 +7,9 @@ image:
   pullPolicy: IfNotPresent
 
 resources:
-  cpu: 70m
-  memory: 256Mi
+  requests:
+    cpu: 70m
+    memory: 256Mi
 
 service:
   type: ClusterIP
